@@ -18,6 +18,7 @@ The HyperText Transfer Protocol, no need explain anything here we have mdn below
 ##### Further Reading
  - https://www.geeksforgeeks.org/components-of-a-url/
  - https://blog.hubspot.com/marketing/parts-url
+ - https://www.baeldung.com/spring-requestmapping
 
 ### Part-1: The various HTTP Request Methods
 - GET
