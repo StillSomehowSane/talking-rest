@@ -13,7 +13,7 @@ The HyperText Transfer Protocol, no need explain anything here we have mdn below
 
 ### Prologue: Parts of a URL
 
-!(Parts of a URL)[https://github.com/StillSomehowSane/talking-rest/blob/main/image/urldiag.PNG]
+![Parts of a URL](https://github.com/StillSomehowSane/talking-rest/blob/main/image/urldiag.PNG)
 
 ##### Further Reading
  - https://www.geeksforgeeks.org/components-of-a-url/
