@@ -68,7 +68,7 @@ Example in Spring
 But there are a ton more!
 
 ##### Further Reading
- - https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods
+ - https://developer.mozilla.org/en-US/docs/Web/HTTP/Status
 
 ### Part-4: The HTTP Request
 Being able to read the request line is a critical skill in Talking Rest
