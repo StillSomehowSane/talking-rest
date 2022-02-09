@@ -7,17 +7,17 @@ import javax.persistence.Table;
 
 @Entity
 @Table(name="SALES")
-public class Sales {
+public class Sale {
 	
 	
 	
 	@Id
 	private int id;
 	
-	@Column(name="product_id")
-	private int product_id;
+	@Column(name="PRODUCT_ID")
+	private int productId;
 	
-	@Column(name="quantity")
+	@Column(name="QUANTITY")
 	private int quantity;
 
 	public int getId() {
@@ -28,12 +28,12 @@ public class Sales {
 		this.id = id;
 	}
 
-	public int getProduct_id() {
-		return product_id;
+	public int getProductId() {
+		return productId;
 	}
 
-	public void setProduct_id(int product_id) {
-		this.product_id = product_id;
+	public void setProductId(int productId) {
+		this.productId = productId;
 	}
 
 	public int getQuantity() {
@@ -45,7 +45,7 @@ public class Sales {
 	}
 	
 	
-	
+
 	
 	
 

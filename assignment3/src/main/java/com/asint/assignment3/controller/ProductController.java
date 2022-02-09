@@ -1,17 +1,9 @@
 package com.asint.assignment3.controller;
 
-import java.util.List;
-import java.util.Optional;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
-
 import org.springframework.web.bind.annotation.RestController;
-
-
-import com.asint.assignment3.model.Sales;
 import com.asint.assignment3.repository.ProductRepo;
-import com.asint.assignment3.repository.SalesRepo;
 import com.asint.assignment3.service.ProductService;
 import com.fasterxml.jackson.databind.node.ArrayNode;
 
