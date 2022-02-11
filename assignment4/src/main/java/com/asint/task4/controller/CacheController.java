@@ -63,7 +63,26 @@ public class CacheController {
 	@GetMapping("/scache/api/admin/all")
 	public ResponseEntity<?> getAllPagesInCache() {
 		// TODO: Implement
-		retun null
+		return null;
+	}
+
+	@GetMapping("/scache/api/refresh")
+	public ResponseEntity<?> refreshCache(@RequestParam(value = "url", required=false, defaultValue = "") String url) {
+		// TODO: Implement
+		try {
+			if (url == "") {
+				Page.refreshCache();
+			} else {
+				URL uri = new URL(url);
+				Page newPage = new Page(uri, true);
+			}
+
+			return new ResponseEntity<String>("Success", HttpStatus.OK);
+		} catch (Exception r) {
+			r.printStackTrace();
+
+			return new ResponseEntity<String>("Something went wrong!", HttpStatus.INTERNAL_SERVER_ERROR);
+		}
 		
 	}
 }

@@ -50,7 +50,7 @@ public class Page {
 	 * Refresh every single page in the cache by updating
 	 * its contents after a fresh fetch.
 	 */
-	public void refreshCache() throws IOException {
+	public static void refreshCache() throws IOException {
 		// TODO: Implement
 		for (Page p : Page.cache.getAllCachedPages()) {
 			if (p != null) {
