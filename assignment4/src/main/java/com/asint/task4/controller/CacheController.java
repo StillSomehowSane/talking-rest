@@ -60,15 +60,15 @@ public class CacheController {
 		}
 	}
 	
-	@GetMapping("/scache/api/admin/all")
+	@GetMapping("/scache/api/v1/admin/all")
 	public ResponseEntity<?> getAllPagesInCache() {
-		// TODO: Implement
+		
 		return null;
 	}
 
-	@GetMapping("/scache/api/refresh")
+	@GetMapping("/scache/api/v1/refresh")
 	public ResponseEntity<?> refreshCache(@RequestParam(value = "url", required=false, defaultValue = "") String url) {
-		// TODO: Implement
+		
 		try {
 			if (url == "") {
 				Page.refreshCache();

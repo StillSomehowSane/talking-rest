@@ -32,7 +32,7 @@ public class Page {
 	 */
 	public Page(URL url, boolean refresh) throws IOException {
 		super();
-		// TODO: Implement
+	
 		this.url = url;
 
 		if (refresh == true) {
@@ -51,7 +51,7 @@ public class Page {
 	 * its contents after a fresh fetch.
 	 */
 	public static void refreshCache() throws IOException {
-		// TODO: Implement
+		
 		for (Page p : Page.cache.getAllCachedPages()) {
 			if (p != null) {
 				p.refreshMe();
